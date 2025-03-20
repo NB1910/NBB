@@ -52,7 +52,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Grand Thetf Cheese: New Work Wola Retro</h1>
+        <h1>Test</h1>
         <div id="startScreen">
             <p>Rozpocznij ekscytującą przygodę, w której będziesz musiał odnaleźć ukryte pytania i podać poprawne odpowiedzi, aby zdobyć kolejne wskazówki prowadzące Cię aż do mety!</p>
             <button onclick="startGame()">Start</button>
@@ -63,7 +63,7 @@
                 <p>Jaka jest odpowiedź na pytanie?</p>
                 <div class="answer">
                     <input type="text" id="answer1" placeholder="Twoja odpowiedź">
-                    <button onclick="checkAnswer('answer1', 'Newwork', 'hint1')">Sprawdź odpowiedź</button>
+                    <button onclick="checkAnswer('answer1', 'NB', 'hint1')">Sprawdź odpowiedź</button>
                 </div>
             </div>
             <div id="question2" class="question" style="display: none;">
